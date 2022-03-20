@@ -15,3 +15,75 @@ header nav ul li
    display: inline-flex;
    width: 200px;
 } */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Roboto&display=swap');
+
+body
+{
+   background-color: pink;
+}
+
+header
+{
+   width: auto;
+   height: 10%;
+   display: flex;
+}
+
+#name-ava
+{
+}
+
+#name-ava img
+{
+   height: auto;
+   border-radius: 50%;
+}
+
+#name-ava h1, h2
+{
+   font-family: Fredoka, Arial, Helvetica, sans-serif;
+   display: inline-block;
+}
+
+header nav ul
+{
+   display: flex;
+   min-width: fit-content;
+}
+
+header nav ul li
+{
+   list-style: none;
+   min-width: fit-content;
+   padding: 5%;
+}
+
+#main-content
+{
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+#main-content p
+{
+   font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+#my-work
+{
+   display: flex;
+}
+
+.portfolio-item
+{
+   border: 1px solid black;
+   width: 20%;
+   height: 10em;
+}
+
+.portfolio-item:first, #major-item
+{
+   display: inline-block;
+   width: 40px;
+}
